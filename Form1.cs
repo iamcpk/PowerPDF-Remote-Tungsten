@@ -39,7 +39,7 @@ namespace PowerPDF_Remote_Tungsten
         {
             logoPictureBox = new PictureBox();
             logoPictureBox.Size = new Size(140, 60); // Set the size of the logo
-            logoPictureBox.Image = System.Drawing.Image.FromFile(@".\images\tungstenwhitelogo.png"); // Load your logo image
+            logoPictureBox.Image = System.Drawing.Image.FromFile(@".\images\tungstenwhitelogo.png"); // Load your logo image from images
             logoPictureBox.SizeMode = PictureBoxSizeMode.Zoom; // Adjust the size mode
             logoPictureBox.Location = new Point(this.ClientSize.Width - logoPictureBox.Width - 10, 10);
             this.Controls.Add(logoPictureBox);
